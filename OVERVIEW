@@ -1,0 +1,30 @@
+# CONVERTER-MILES-KM
+
+Current Version: 1.0
+
+Description:
+CONVERTER-MILES-KM is a trivial unit converion program that accepts a unit type in the form of miles or kilometers
+as well as a distance value. Once these two values are collected the program will convert the unit to its opposite 
+(miles to km or vice-versa).
+After this task is complete the program will display the results to the console and then terminate.
+
+Exception Handling:
+Version 1.0 comes equipped with a basic exception handler that detects when an invalid unit type is entered, and 
+repeatedly prompts the user to enter a valid unit (km/miles). Once the correct unit is entered the program will
+continue as usual.
+
+Future Implementations:
+This version is just a barebones concept and is rather trivial. In future versions I intend to flesh things out 
+by adding various features.
+
+Some ideas include:
+
+- Merge the two input statements into a single prompt that allows the user to include the unit type with the
+distance value. 
+Ex: "Enter a distance (eg. 5 km): 26 miles" 
+"Output: 26 miles == 41.84 km"
+
+- Create two separate functions such as 'ConvertKm' and 'ConvertMi' that can be called from the main function. This should
+enhance reuseablity and readability of the programs main function.
+
+- Give the user the option to convert a value again rather than have to restart the program.
